@@ -1,0 +1,18 @@
+_____________________Colors______________________
+Text Colors:
+  red
+  white
+  green
+  cyan
+  blue
+  yellow
+  magenta
+Background Colors:
+  red
+  white
+  green
+  cyan
+  blue
+  yellow
+  magenta
+  black
