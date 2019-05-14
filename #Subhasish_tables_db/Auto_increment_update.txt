@@ -1,0 +1,41 @@
+user
+
+Set @autoid :=0;
+update user set uid = @autoid := (@autoid+1);
+alter table user Auto_increment = 1;
+
+org
+
+Set @autoid :=0;
+update org set oid = @autoid := (@autoid+1);
+alter table org Auto_increment = 1;
+
+admin
+
+Set @autoid :=0;
+update admin set aid = @autoid := (@autoid+1);
+alter table admin Auto_increment = 1;
+
+acontact
+
+Set @autoid :=0;
+update acontact set qid = @autoid := (@autoid+1);
+alter table acontact Auto_increment = 1;
+
+ditem
+
+Set @autoid :=0;
+update ditem set iid = @autoid := (@autoid+1);
+alter table ditem Auto_increment = 1;
+
+udonate
+
+Set @autoid :=0;
+update udonate set did = @autoid := (@autoid+1);
+alter table udonate Auto_increment = 1;
+
+gdonate
+
+Set @autoid :=0;
+update gdonate set gdid = @autoid := (@autoid+1);
+alter table gdonate Auto_increment = 1;
